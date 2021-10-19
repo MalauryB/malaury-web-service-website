@@ -1,0 +1,119 @@
+.content_image_project_details{
+    display: flex;
+    flex-flow: column;
+    max-width: 600px;
+}
+
+.left_arrow_project_details{
+    width: 30px;
+    margin-bottom: 20px;
+}
+
+.carousel_img{
+    height: 300px;
+}
+
+.description_gloabl_content_project_details{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.title_project_details{
+    margin-bottom: 15px;
+
+    font-family: Poppins-semi-bold;
+    font-size: 29px;
+    color: #210B41;
+    letter-spacing: 1px;
+}
+
+.title_project_details::before{
+    border-left: 3px solid #310C50;
+    border-top: 3px solid #310C50;
+    content: '';
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    margin-bottom: 1rem;
+}
+
+.content_project_details{
+    display: flex;
+    flex-flow: row;
+    margin-top: 40px;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.description_project_details{
+    font-family: Poppins-regular;
+    font-size: 10px;
+    font-weight: 16px;
+    height: 250px;
+    overflow-y: auto;
+}
+
+@media screen and (max-width: 1400px){
+    .content_project_details {
+        flex-flow: column;
+    }
+
+    .content_image_project_details {
+        max-width: 100%;
+        margin: auto;
+        flex-flow: column;
+    }
+
+    .carousel_img {
+        width: 100%;
+        height: auto;
+    }
+
+    .description_gloabl_content_project_details {
+        margin-left: 0px;
+    }
+
+    .content_project_details {
+        max-width: 100%; 
+        width: 81%;
+    }
+}
+
+@media screen and (max-width:800px){
+    .content_project_details {
+        margin-top: 70px;
+        width: 89%;
+    }
+
+    .description_gloabl_content_project_details {
+        width: 89%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media screen and (max-width:361px){
+    .content_project_details {
+        width: 77%;
+    }
+}
+
+
+@media screen and (max-width:376px){
+    .content_project_details {
+        width: 78%;
+    }
+}
+
+@media screen and (max-width:451px){
+    .content_project_details {
+        width: 82%;
+    }
+}
+
+.sr-only{
+    color: transparent;
+}

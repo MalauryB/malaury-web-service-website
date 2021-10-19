@@ -1,0 +1,101 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url("assets/img/background_mws.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.margin-top-50{
+  margin-top: 50px !important;
+}
+
+.position-relative{
+  position: relative;
+}
+
+.align-right{
+  text-align: right;
+}
+
+.vertical-center{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%); 
+}
+
+@font-face {
+  font-family: Avenir-book;
+  src: url(assets/font/Avenir-Book.ttf);
+}
+
+.display-block{
+  display: block;
+}
+@font-face {
+  font-family: Poppins-black;
+  src: url(assets/font/Poppins-Black.ttf);
+}
+
+@font-face {
+  font-family: Poppins-bold;
+  src: url(assets/font/Poppins-Bold.ttf);
+}
+
+@font-face {
+  font-family: Poppins-semi-bold;
+  src: url(assets/font/Poppins-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: Poppins-regular;
+  src: url(assets/font/Poppins-Regular.ttf);
+}
+
+@font-face {
+  font-family: Poppins-thin-italic;
+  src: url(assets/font/Poppins-ThinItalic.ttf);
+}
+
+@font-face {
+  font-family: Poppins-medium-italic;
+  src: url(assets/font/Poppins-MediumItalic.ttf);
+}
+
+.left-position{
+  left: 0px;
+}
+
+.ligne_points{
+  color: grey;
+  font-size: 6px;
+  font-family: Avenir-book;
+  letter-spacing: 4px;
+}
+
+.input:active,input:focus{
+  outline: none;
+}
+
+.text-center{
+  width: 100%;
+  text-align: center;
+}
+.text_align_center_base{
+  margin: auto;
+  width: 50%;
+}

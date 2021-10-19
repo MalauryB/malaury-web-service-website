@@ -1,0 +1,143 @@
+.competences-content{
+    display:flex;
+    flex-flow: row;
+    position: relative;
+    top: 45px;
+    width: 100%;
+    margin-left: 5%;
+}
+
+.competences-text-content{
+    flex-direction: column;
+    margin-right: 15px;
+    width: 50%;
+    max-height: 370px;
+}
+
+.competences-title{
+    font-family: Poppins-bold;
+    color: #200A40;
+    font-size: 44px;
+    letter-spacing: 1px;
+}
+
+.competences-text{    
+    font-family: Poppins-regular;
+    font-size: 10px;
+    line-height: 16px;
+    overflow-y: auto;
+    max-height: 79%;
+}
+
+.competences-image{
+    height: 375px;
+}
+
+@media screen and (max-width:1350px){
+    .competences-content {
+        flex-flow: column;
+        justify-content: center;
+        margin-left: 0%;
+    }
+
+    .competences-image {
+        width: 75%;
+        height: auto;
+        margin: auto;
+        margin-top: 50px;
+    }
+
+    .white_carte{
+        top: 115px;
+        transform: initial;
+    }
+
+    .competences-text-content {
+        margin: auto;
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 1150px){
+    .competences-text-content {
+        max-height: 400px;
+    }
+}
+
+@media screen and (max-width: 1116px){
+    .competences-text-content {
+        max-height: 440px;
+    }
+}
+
+@media screen and (max-width: 1060px){
+    .competences-text-content {
+        max-height: 520px;
+    }
+}
+
+@media screen and (max-width: 900px){
+    .competences-text-content {
+        max-height: 640px;
+    }
+}
+
+@media screen and (max-width: 740px){
+    .competences-text-content {
+        max-height: 700px;
+    }
+}
+
+@media screen and (max-width: 630px){
+    .competences-text-content {
+        max-height: 750px;
+    }
+}
+
+@media screen and (max-width: 580px){
+    .competences-text-content {
+        max-height: 800px;
+    }
+}
+
+@media screen and (max-width: 540px){
+    .competences-text-content {
+        max-height: 825px;
+    }
+}
+
+@media screen and (max-width: 475px){
+    .competences-text-content {
+        max-height: 875px;
+    }
+}
+
+@media screen and (max-width: 460px){
+    .competences-text-content {
+        max-height: 900px;
+    }
+}
+
+@media screen and (max-width: 430px){
+    .competences-text-content {
+        max-height: 930px;
+    }
+}
+
+@media screen and (max-width: 420px){
+    .competences-text-content {
+        max-height: 965px;
+    }
+}
+
+@media screen and (max-width: 390px){
+    .competences-text-content {
+        max-height: 1040px;
+    }
+}
+
+@media screen and (max-width: 371px){
+    .competences-text-content {
+        max-height: 1080px;
+    }
+}

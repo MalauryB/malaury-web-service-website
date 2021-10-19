@@ -1,0 +1,122 @@
+.home_titles{
+    color: white;
+    position: absolute;
+    bottom: 10%;
+    margin-left: 5%;
+}
+
+.home_p{
+    font-size: 12px;
+    font-family: Avenir-book;
+    letter-spacing: 4px;
+    line-height: 25px;
+}
+
+.home_h1 {
+    font-size: 50px;
+    font-family: Poppins-bold;
+    width: 330px;
+    margin-top: 10px;
+}
+
+.home_title_job{
+    font-size: 16px;
+    font-family: Poppins-regular;
+    width: 480px;
+    margin-top: 20px;
+    margin-bottom: 70px;
+}
+
+.click_on_items{
+    font-family: Avenir-book;
+    font-size: 13px;
+    letter-spacing: 3px;
+}
+
+.arrow_transparent{
+    opacity: 0.33;
+    margin-left: 10px;
+}
+
+.arrow{
+    width: 7px;
+    height: 10px;
+    margin-right: 2px;
+}
+
+.home_ligne_points{
+    margin-left: 0%;
+    margin-left: 24%;
+}
+
+@media screen and (max-width: 490px){
+    .home_ligne_points {
+        margin-top: 20px;
+    }
+
+    .home_title_job {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .home_title_job {
+        margin-bottom: 30px;
+    }
+}
+
+.title_intro_enter{
+    color: white;
+    font-family: Poppins-bold;
+    animation: fadeInAnimation ease 1s; 
+    animation-iteration-count: 1; 
+    animation-fill-mode: backwards; 
+    
+}
+
+.title_intro_exit{
+    color: white;
+    font-family: Poppins-bold;
+    animation: fadeOutAnimation ease 1s; 
+    animation-iteration-count: 1; 
+    animation-fill-mode: backwards; 
+    
+}
+
+.title_intro_center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+ 
+@keyframes fadeInAnimation { 
+    0% { 
+        opacity: 0; 
+    } 
+    100% { 
+        opacity: 1; 
+    } 
+} 
+
+@keyframes fadeOutAnimation {
+    0% {opacity: 1;}
+    100% {opacity: 0;} 
+} 
+
+.mws_logo_enter{
+    width: 43%;
+    height: auto;
+    animation: fadeInAnimation ease 3s; 
+    animation-iteration-count: 1; 
+    animation-fill-mode: backwards; 
+}
+
+.mws_logo_exit{
+    width: 43%;
+    height: auto;
+    animation: fadeOutAnimation ease 1s; 
+    animation-iteration-count: 1; 
+    animation-fill-mode: backwards; 
+}

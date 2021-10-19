@@ -1,0 +1,158 @@
+.h1_contact{
+    font-size: 44px;
+    color: #200A40;
+    font-family: Poppins-bold;
+    letter-spacing: 1px;
+    position: absolute;
+    margin-left: 78px;
+    margin-top: 42px;
+}
+
+.point_square{
+    border-color: #210B3F;
+    width: 50%;
+    height: 302px;
+    position: absolute;
+    margin-top: 111px;
+    margin-left: 79px;
+    background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' stroke='black' stroke-width='4' stroke-dasharray='2%2c 8' stroke-dashoffset='0' stroke-linecap='butt'/%3e%3c/svg%3e");
+}
+
+.title_contact{
+    font-family: Avenir-book;
+    font-size: 10px;
+    letter-spacing: 2px;
+}
+
+.contact_text_area{
+    height: 10%;
+}
+
+.contact_form{
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 97%;
+}
+
+.contact_btn{
+    border: 1px;
+    color: #210B3F;
+    border-style: solid;
+    background-color: white;
+    height: 33px;
+    width: 92px;
+    float: right;
+    border-color: #210B3F;
+    border-radius: 3px;
+}
+
+.contact_icon{
+    width: 20px;
+    height: auto;
+    float: left;
+    position: absolute;
+}
+
+.contact-title-icon{
+    font-family: Avenir-book;
+    font-size: 13px;
+    margin-left: 35px;
+    margin-top: 3px;
+}
+
+.contact-sous-title{
+    font-family: Avenir-book;
+    font-size: 17px;
+    letter-spacing: 1px;
+}
+
+.div_contact_references{
+    margin-bottom: 38px;
+}
+
+.references{
+    position: absolute;
+    left: 66%;
+    margin-top: 115px;
+}
+
+.vertical_contact_bar{ 
+    border-left: 2px solid #210B3F; 
+    height: 15px; 
+    display: inline-block;
+    left: 62%;
+    position: absolute;
+    top: 173px;
+} 
+
+.end_margin_contact_references{
+    margin-bottom: 65px;
+}
+
+@media screen and (max-width: 1200px) {
+    .margin_content_contact{
+        margin-top: 36px;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    .references{
+        margin-top: 350px;
+        left:unset;
+    }
+
+    .h1_contact{
+        text-align: center;
+        position: unset;
+        margin-top: 82px;
+        margin-left: 0px;
+    }
+
+    .point_square {
+        margin-top: 24px;
+        margin-left: 0px;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .h1_contact {
+        font-size: 25px;
+    }
+
+    .point_square {
+        margin-left: 33px;
+        width: 78%;
+    }
+
+    .references{
+        left: 33px;
+    }
+
+    .contact_form {
+        margin-left: 0px; 
+    }
+
+    .contact-sous-title {
+        font-size: 13px;
+    }
+
+    .contact-title-icon {
+        font-size: 10px;
+        margin-top: 0px; 
+        margin-left: 30px;
+    }
+
+    .contact_icon {
+        width: 14px;
+    }
+    p {
+        margin-bottom: 6px;
+    }
+}
+
+.alert_mail_send{
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    margin-top: -30px;
+}

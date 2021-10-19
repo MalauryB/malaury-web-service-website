@@ -1,0 +1,27 @@
+.project_image{
+    width: 320px;
+    box-shadow: 5px 5px 5px grey;
+}
+
+.project_list{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.project_title{
+    font-family: Poppins-bold;
+    color: #200A40;
+}
+
+.content_project_list{
+    margin-right: 30px;
+}
+
+@media screen and (max-width: 500px){
+    .project_image{
+        width: 215px;
+    }
+}

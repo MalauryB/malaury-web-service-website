@@ -1,0 +1,151 @@
+.study_content{
+    display: flex;
+    flex-flow: column;
+    margin-top: 50px;
+    margin-left: 5%;
+}
+
+.title_study_content{
+    display: flex;
+    flex-flow: row;
+    margin-bottom: 30px;
+}
+
+.left-arrow-study{
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+.global_content_description_decorations_image_study{
+    display: flex;
+    flex-flow: row;
+}
+
+.content_description_img_study{
+    display: flex;
+    flex-flow: row;
+}
+
+.content_img_description1_study{
+    display: flex;
+    flex-flow: column;
+}
+
+.content_img_study{
+    display: flex;
+    flex-flow: row;
+    margin: auto;
+}
+
+.logo-study-1{
+    width: 190px;
+    height: 70px;
+    margin-top: 10px;
+    margin-right: 30px;
+}
+
+.logo-study-2{
+    width: 215px;
+    height: 96px;
+}
+
+.description_study{
+    font-family: Poppins-regular;
+    font-size: 10px;
+    line-height: 16px;
+}
+
+.vertical_line_study{
+    border-left: 2px solid #200A40;
+    height: 250px;
+    margin: 0 20px;
+}
+
+.title_study{
+    font-family: Poppins-bold;
+    font-size: 44px;
+    letter-spacing: 1px;
+}
+
+.descrption1_study{
+    width: 80%;
+    margin: auto;
+    height: 160px;
+    overflow-x: auto;
+}
+
+.descrption2_study{
+    margin-right: 90px;
+    overflow-x: auto;
+    height: 250px;
+}
+
+@media screen and (max-width: 1200px){
+    .content_description_img_study {
+        flex-flow: column;
+    }
+
+    .title_study_content {
+        margin-bottom: 10px;
+        margin-left: 30px;
+    }
+
+    .study_content {
+        margin-top: 80px;
+    }
+
+    .content_img_study {
+        margin-bottom: 10px;
+    }
+
+    .descrption1_study {
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 700px){
+    .logo-study-2 {
+        width: 154px;
+        height: 70px;
+    }
+
+    .logo-study-1 {
+        width: 120px;
+        height: 50px;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .title_study {
+        font-size: 30px;
+    }
+
+    .left-arrow-study {
+        margin-top: 4px;
+    }
+
+    .content_img_study {
+        flex-flow: column;
+    }
+
+    .logo-study-1 {
+        width: 150px;
+        height: 55px;
+    }
+
+    .logo-study-2 {
+        width: 170px;
+        height: 82px;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .left-arrow-study {
+        margin-top: 0px;
+    }
+    .title_study {
+        font-size: 23px;
+    }
+}
