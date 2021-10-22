@@ -6,7 +6,6 @@ type HomeProps = {
 }
 export default function Home({firstMeet}: HomeProps) {
 
-    console.log(firstMeet);
     const [width, setWidth] = useState(window.innerWidth);
     const updateWidthAndHeight = () => {
         setWidth(window.innerWidth);
