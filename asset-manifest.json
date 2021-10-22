@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/Malaury-web-service-website/static/css/main.26605cde.chunk.css",
-    "main.js": "/Malaury-web-service-website/static/js/main.9c3b5ae8.chunk.js",
-    "main.js.map": "/Malaury-web-service-website/static/js/main.9c3b5ae8.chunk.js.map",
-    "runtime-main.js": "/Malaury-web-service-website/static/js/runtime-main.98bc74c6.js",
-    "runtime-main.js.map": "/Malaury-web-service-website/static/js/runtime-main.98bc74c6.js.map",
-    "static/css/2.9795e77f.chunk.css": "/Malaury-web-service-website/static/css/2.9795e77f.chunk.css",
-    "static/js/2.050acba3.chunk.js": "/Malaury-web-service-website/static/js/2.050acba3.chunk.js",
-    "static/js/2.050acba3.chunk.js.map": "/Malaury-web-service-website/static/js/2.050acba3.chunk.js.map",
-    "static/js/3.233ee2aa.chunk.js": "/Malaury-web-service-website/static/js/3.233ee2aa.chunk.js",
-    "static/js/3.233ee2aa.chunk.js.map": "/Malaury-web-service-website/static/js/3.233ee2aa.chunk.js.map",
-    "index.html": "/Malaury-web-service-website/index.html",
-    "static/css/2.9795e77f.chunk.css.map": "/Malaury-web-service-website/static/css/2.9795e77f.chunk.css.map",
-    "static/css/main.26605cde.chunk.css.map": "/Malaury-web-service-website/static/css/main.26605cde.chunk.css.map",
-    "static/js/2.050acba3.chunk.js.LICENSE.txt": "/Malaury-web-service-website/static/js/2.050acba3.chunk.js.LICENSE.txt",
-    "static/media/index.css": "/Malaury-web-service-website/static/media/background_mws.72ca11f0.jpg"
+    "main.css": "/malaury-web-service-website/static/css/main.36f05ac0.chunk.css",
+    "main.js": "/malaury-web-service-website/static/js/main.9c3b5ae8.chunk.js",
+    "main.js.map": "/malaury-web-service-website/static/js/main.9c3b5ae8.chunk.js.map",
+    "runtime-main.js": "/malaury-web-service-website/static/js/runtime-main.192fd07e.js",
+    "runtime-main.js.map": "/malaury-web-service-website/static/js/runtime-main.192fd07e.js.map",
+    "static/css/2.9795e77f.chunk.css": "/malaury-web-service-website/static/css/2.9795e77f.chunk.css",
+    "static/js/2.1b9e6633.chunk.js": "/malaury-web-service-website/static/js/2.1b9e6633.chunk.js",
+    "static/js/2.1b9e6633.chunk.js.map": "/malaury-web-service-website/static/js/2.1b9e6633.chunk.js.map",
+    "static/js/3.233ee2aa.chunk.js": "/malaury-web-service-website/static/js/3.233ee2aa.chunk.js",
+    "static/js/3.233ee2aa.chunk.js.map": "/malaury-web-service-website/static/js/3.233ee2aa.chunk.js.map",
+    "index.html": "/malaury-web-service-website/index.html",
+    "static/css/2.9795e77f.chunk.css.map": "/malaury-web-service-website/static/css/2.9795e77f.chunk.css.map",
+    "static/css/main.36f05ac0.chunk.css.map": "/malaury-web-service-website/static/css/main.36f05ac0.chunk.css.map",
+    "static/js/2.1b9e6633.chunk.js.LICENSE.txt": "/malaury-web-service-website/static/js/2.1b9e6633.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/malaury-web-service-website/static/media/background_mws.72ca11f0.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.98bc74c6.js",
+    "static/js/runtime-main.192fd07e.js",
     "static/css/2.9795e77f.chunk.css",
-    "static/js/2.050acba3.chunk.js",
-    "static/css/main.26605cde.chunk.css",
+    "static/js/2.1b9e6633.chunk.js",
+    "static/css/main.36f05ac0.chunk.css",
     "static/js/main.9c3b5ae8.chunk.js"
   ]
 }
